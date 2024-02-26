@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Body Health Checkup</title>
+    <link rel="icon" type="image/png" id="favicon" href="assets/icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/new.css">
+    <style>
+        .header-section {
+            background-image: url("assets/mfine.svg");
+        }
+
+        .strike {
+            text-decoration: line-through;
+        }
+
+        .yellow {
+            color: yellow;
+        }
+
+    </style>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QSPN0R3JHZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-QSPN0R3JHZ');
+    </script>
+</head>
+<body>
+
+    <nav class="navbar navbar-light mt-2">
+        <div class="container">
+            <img src="https://redcliffelabs.com/static/media/logo-transparent.7a4badaf.png" alt="" class="logo-img">
+        </div>
+    </nav>
+
+    <div id="main">
+        <section class="top-section pt-3">
+            <div class="container">
+                <div class="col-lg-12">
+                    <div class="section-header">
+                        <h3 class="text-center breaking-text blink_it">Complete Body Checkup</h3>
+                        <marquee class="m-text" behavior="" direction="">Lipid Profile, Kidney Function Test, Liver Function Test, Complete Haemogram (CBC + ESR), Urine Routine & Microscopy (Urine R/M) and more.....</marquee>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="header-section">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-7 mt-3 mb-3">
+                        <div class="header-content">
+                            <div class="header-text">
+
+                                <!-- <h1 class="heading fbc-text">Full Body Health Package <span>Now Just at ₹1249/-</span> <span class="text-decoration-line-through">₹2500/-</span> With 69+ tests</h1> -->
+                                <h1 class="heading fbc-text">Suggested once a year * <span class="yellow">60% off</span><br>Early detection test with 82 tests <span class="strike">₹2010</span><span class="blink_it"> @ ₹799/- </span>Only </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 form-col">
+                        <div class="form-style">
+                            <div class="form-header mb-3">
+                                <h5 class="text-center fw-bold">India's Trusted Diagnostic Labs</h5>
+                            </div>
+                            <form action="" id="leadfrm">
+                                <div class="mb-3">
+                                    <div class="form-group">
+                                        <input type="text" name="pincode" id="pincode" class="form-control" placeholder="Enter Pincode">
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="form-group">
+                                        <input type="tel" name="phone" id="phone" class="form-control" placeholder="Enter Phone Number">
+                                    </div>
+                                </div>
+                                <input type="hidden" name="created_at" value="">
+                                <button type="submit" class="btn submitForm w-100" id="submitForm">Book Now</button>
+                            </form>
+                            <!-- <div class="header-disc">
+                                <h3 class="disc-text text-white">Save Upto 50% Now</h3>
+                            </div> -->
+                            <h5 class="mt-3 total-test text-center fw-bold">Total tests booked toady: <span id="numberDisplay">75</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="second-section py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-header">
+                            <h1 class="text-center section-text">Why Choose Us?</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-content mt-3">
+                    <div class="row">
+                        <div class="col-lg-4 mb-2">
+                            <div class="card">
+                                <div class="card d-flex more-card">
+                                    <img src="https://marketing-compaigns.s3.ap-south-1.amazonaws.com/emailer/Landing-Pages-2021/Labs-call-back/secure.webp" class="img-fluid more-b-img" alt="">
+                                    <div class="card-text">
+                                        <h5 class="text-capitalize more-b-text">Trusted & Certified Labs</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-2">
+                            <div class="card">
+                                <div class="card d-flex more-card">
+                                    <img src="https://marketing-compaigns.s3.ap-south-1.amazonaws.com/emailer/Landing-Pages-2021/Labs-call-back/report.webp" class="img-fluid more-b-img" alt="">
+                                    <div class="card-text">
+                                        <h5 class="text-capitalize more-b-text">Fast & Accurate Reports</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-2">
+                            <div class="card">
+                                <div class="card d-flex more-card">
+                                    <img src="https://marketing-compaigns.s3.ap-south-1.amazonaws.com/emailer/Landing-Pages-2021/Labs-call-back/safe_home_collection.webp" class="img-fluid more-b-img" alt="">
+                                    <div class="card-text">
+                                        <h5 class="text-capitalize more-b-text">Free Home Sample Collection</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-header">
+                            <h1 class="text-center section-text">Our Health Packages</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-lg-12">
+                        <div class="swiper package-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card package-card">
+                                        <div class="card-body">
+                                            <h5 class="card-title p-card-t fw-bold">Vital Screening Package in Mumbai</h5>
+                                            <p class="card-p">With <span class="fw-bold include-number">82</span> Paramaters</p>
+                                            <div class="d-flex price-div">
+                                                <span class="p-rice">₹799/-</span>
+                                                <span class="text-decoration-line-through slash">₹2010/-</span>
+                                                <span class="discount">60% Off</span>
+                                            </div>
+                                            <hr>
+                                            <div class="accordion mt-2" id="accordionPackage">
+                                                <div class="accordion-item new-item">
+                                                    <h2 class="accordion-header" id="headingTwo">
+                                                        <button class="accordion-button acc-btn-2 collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#packageOne" aria-expanded="false" aria-controls="packageOne">
+                                                            View More Details
+                                                        </button>
+                                                    </h2>
+                                                    <div id="packageOne" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionPackage">
+                                                        <div class="accordion-body accordion-body-2">
+                                                            Haemogram (CBC + ESR) (27), Kidney Function Test (KFT) (11), Lipid Profile (9), Liver Function Test (LFT) (12), Urine Routine & Microscopic Examination (23), 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="button select-btn mt-2">
+                                                <a href="#" class="w-50 btn package-btn booktest">Book Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="review-section py-5">
+            <div class="container">
+                <div class="review-content">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-4">
+                            <h5 class="fw-bold">40 Lakh+ Satisfied Customer In All Over India</h5>
+                            <p>If you are booking any test then also avail free doctor consultation with it.</p>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="row">
+                                <div class="col-lg-12 my-3">
+                                    <div class="section-header">
+                                        <h1 class="section-text">Our Reviews</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review-part">
+                                <div class="swiper review-swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="card review-card">
+                                                <div class="review-top">
+                                                    <svg width="42" height="42" viewBox="0 0 42 42" fill="none"><circle cx="21" cy="21" r="20.25" fill="white" stroke="#DDDDDD" stroke-width="0.5"></circle><path d="M31.56 21.25C31.56 20.47 31.49 19.72 31.36 19H21V23.26H26.92C26.66 24.63 25.88 25.79 24.71 26.57V29.34H28.28C30.36 27.42 31.56 24.6 31.56 21.25Z" fill="#4285F4"></path><path d="M20.9997 31.9996C23.9697 31.9996 26.4597 31.0196 28.2797 29.3396L24.7097 26.5696C23.7297 27.2296 22.4797 27.6296 20.9997 27.6296C18.1397 27.6296 15.7097 25.6996 14.8397 23.0996H11.1797V25.9396C12.9897 29.5296 16.6997 31.9996 20.9997 31.9996Z" fill="#34A853"></path><path d="M14.84 23.0903C14.62 22.4303 14.49 21.7303 14.49 21.0003C14.49 20.2703 14.62 19.5703 14.84 18.9103V16.0703H11.18C10.43 17.5503 10 19.2203 10 21.0003C10 22.7803 10.43 24.4503 11.18 25.9303L14.03 23.7103L14.84 23.0903Z" fill="#FBBC05"></path><path d="M20.9997 14.38C22.6197 14.38 24.0597 14.94 25.2097 16.02L28.3597 12.87C26.4497 11.09 23.9697 10 20.9997 10C16.6997 10 12.9897 12.47 11.1797 16.07L14.8397 18.91C15.7097 16.31 18.1397 14.38 20.9997 14.38Z" fill="#EA4335"></path></svg>
+                                                    <div class="stars-svg"><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg></div>
+                                                    <!-- <span class="timer">2 months ago</span> -->
+                                                </div>
+                                                <div class="card-content pt-2">
+                                                    <p>Really satisfied with the overall experience. The phlebo came to my home at a 
+                                                        designated time slot. He was tidy and followed all safety precautions. 
+                                                        I was worried about sample collection initially but phlebo was very professional 
+                                                        and made it easy for me.
+                                                    </p>
+                                                    <p class="name fw-bold pt-2">Ayush Kashyap (Delhi)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card review-card">
+                                                <div class="review-top">
+                                                    <svg width="42" height="42" viewBox="0 0 42 42" fill="none"><circle cx="21" cy="21" r="20.25" fill="white" stroke="#DDDDDD" stroke-width="0.5"></circle><path d="M31.56 21.25C31.56 20.47 31.49 19.72 31.36 19H21V23.26H26.92C26.66 24.63 25.88 25.79 24.71 26.57V29.34H28.28C30.36 27.42 31.56 24.6 31.56 21.25Z" fill="#4285F4"></path><path d="M20.9997 31.9996C23.9697 31.9996 26.4597 31.0196 28.2797 29.3396L24.7097 26.5696C23.7297 27.2296 22.4797 27.6296 20.9997 27.6296C18.1397 27.6296 15.7097 25.6996 14.8397 23.0996H11.1797V25.9396C12.9897 29.5296 16.6997 31.9996 20.9997 31.9996Z" fill="#34A853"></path><path d="M14.84 23.0903C14.62 22.4303 14.49 21.7303 14.49 21.0003C14.49 20.2703 14.62 19.5703 14.84 18.9103V16.0703H11.18C10.43 17.5503 10 19.2203 10 21.0003C10 22.7803 10.43 24.4503 11.18 25.9303L14.03 23.7103L14.84 23.0903Z" fill="#FBBC05"></path><path d="M20.9997 14.38C22.6197 14.38 24.0597 14.94 25.2097 16.02L28.3597 12.87C26.4497 11.09 23.9697 10 20.9997 10C16.6997 10 12.9897 12.47 11.1797 16.07L14.8397 18.91C15.7097 16.31 18.1397 14.38 20.9997 14.38Z" fill="#EA4335"></path></svg>
+                                                    <div class="stars-svg"><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg></div>
+                                                    <!-- <span class="timer">1 month ago</span> -->
+                                                </div>
+                                                <div class="card-content pt-2">
+                                                    <p>I booked comprehensive full body package at Redcliffe Labs. My HbA1c levels were highlighted in the
+                                                        report but I didn’t know what to do with these values.
+                                                    </p>
+                                                    <p class="name fw-bold pt-2">Rohit Verma (Mumbai)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card review-card">
+                                                <div class="review-top">
+                                                    <svg width="42" height="42" viewBox="0 0 42 42" fill="none"><circle cx="21" cy="21" r="20.25" fill="white" stroke="#DDDDDD" stroke-width="0.5"></circle><path d="M31.56 21.25C31.56 20.47 31.49 19.72 31.36 19H21V23.26H26.92C26.66 24.63 25.88 25.79 24.71 26.57V29.34H28.28C30.36 27.42 31.56 24.6 31.56 21.25Z" fill="#4285F4"></path><path d="M20.9997 31.9996C23.9697 31.9996 26.4597 31.0196 28.2797 29.3396L24.7097 26.5696C23.7297 27.2296 22.4797 27.6296 20.9997 27.6296C18.1397 27.6296 15.7097 25.6996 14.8397 23.0996H11.1797V25.9396C12.9897 29.5296 16.6997 31.9996 20.9997 31.9996Z" fill="#34A853"></path><path d="M14.84 23.0903C14.62 22.4303 14.49 21.7303 14.49 21.0003C14.49 20.2703 14.62 19.5703 14.84 18.9103V16.0703H11.18C10.43 17.5503 10 19.2203 10 21.0003C10 22.7803 10.43 24.4503 11.18 25.9303L14.03 23.7103L14.84 23.0903Z" fill="#FBBC05"></path><path d="M20.9997 14.38C22.6197 14.38 24.0597 14.94 25.2097 16.02L28.3597 12.87C26.4497 11.09 23.9697 10 20.9997 10C16.6997 10 12.9897 12.47 11.1797 16.07L14.8397 18.91C15.7097 16.31 18.1397 14.38 20.9997 14.38Z" fill="#EA4335"></path></svg>
+                                                    <div class="stars-svg"><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg></div>
+                                                    <!-- <span class="timer">1 month ago</span> -->
+                                                </div>
+                                                <div class="card-content pt-2">
+                                                    <p>I had a great experience with Redcliffe Labs. Right from booking tests online to getting reports on the
+                                                        app, everything was flawless. Special mention about the phlebotomist who came for sample
+                                                        collection. He was very professional.
+                                                    </p>
+                                                    <p class="name fw-bold pt-2">Rohini Gang (Bangalore)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card review-card">
+                                                <div class="review-top">
+                                                    <svg width="42" height="42" viewBox="0 0 42 42" fill="none"><circle cx="21" cy="21" r="20.25" fill="white" stroke="#DDDDDD" stroke-width="0.5"></circle><path d="M31.56 21.25C31.56 20.47 31.49 19.72 31.36 19H21V23.26H26.92C26.66 24.63 25.88 25.79 24.71 26.57V29.34H28.28C30.36 27.42 31.56 24.6 31.56 21.25Z" fill="#4285F4"></path><path d="M20.9997 31.9996C23.9697 31.9996 26.4597 31.0196 28.2797 29.3396L24.7097 26.5696C23.7297 27.2296 22.4797 27.6296 20.9997 27.6296C18.1397 27.6296 15.7097 25.6996 14.8397 23.0996H11.1797V25.9396C12.9897 29.5296 16.6997 31.9996 20.9997 31.9996Z" fill="#34A853"></path><path d="M14.84 23.0903C14.62 22.4303 14.49 21.7303 14.49 21.0003C14.49 20.2703 14.62 19.5703 14.84 18.9103V16.0703H11.18C10.43 17.5503 10 19.2203 10 21.0003C10 22.7803 10.43 24.4503 11.18 25.9303L14.03 23.7103L14.84 23.0903Z" fill="#FBBC05"></path><path d="M20.9997 14.38C22.6197 14.38 24.0597 14.94 25.2097 16.02L28.3597 12.87C26.4497 11.09 23.9697 10 20.9997 10C16.6997 10 12.9897 12.47 11.1797 16.07L14.8397 18.91C15.7097 16.31 18.1397 14.38 20.9997 14.38Z" fill="#EA4335"></path></svg>
+                                                    <div class="stars-svg"><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg></div>
+                                                    <!-- <span class="timer">3 months ago</span> -->
+                                                </div>
+                                                <div class="card-content pt-2">
+                                                    <p>I would like to appreciate Redcliffe Labs service and speedy report delivery. I have to travel and need a
+                                                        RTPCR report urgently. I found Redcliffe Labs on the internet, booked the test for 2 pm and got the
+                                                        report in less than 24 hours.
+                                                    </p>
+                                                    <p class="name fw-bold pt-2">Abhinav Mishra (Hyderabad)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card review-card">
+                                                <div class="review-top">
+                                                    <svg width="42" height="42" viewBox="0 0 42 42" fill="none"><circle cx="21" cy="21" r="20.25" fill="white" stroke="#DDDDDD" stroke-width="0.5"></circle><path d="M31.56 21.25C31.56 20.47 31.49 19.72 31.36 19H21V23.26H26.92C26.66 24.63 25.88 25.79 24.71 26.57V29.34H28.28C30.36 27.42 31.56 24.6 31.56 21.25Z" fill="#4285F4"></path><path d="M20.9997 31.9996C23.9697 31.9996 26.4597 31.0196 28.2797 29.3396L24.7097 26.5696C23.7297 27.2296 22.4797 27.6296 20.9997 27.6296C18.1397 27.6296 15.7097 25.6996 14.8397 23.0996H11.1797V25.9396C12.9897 29.5296 16.6997 31.9996 20.9997 31.9996Z" fill="#34A853"></path><path d="M14.84 23.0903C14.62 22.4303 14.49 21.7303 14.49 21.0003C14.49 20.2703 14.62 19.5703 14.84 18.9103V16.0703H11.18C10.43 17.5503 10 19.2203 10 21.0003C10 22.7803 10.43 24.4503 11.18 25.9303L14.03 23.7103L14.84 23.0903Z" fill="#FBBC05"></path><path d="M20.9997 14.38C22.6197 14.38 24.0597 14.94 25.2097 16.02L28.3597 12.87C26.4497 11.09 23.9697 10 20.9997 10C16.6997 10 12.9897 12.47 11.1797 16.07L14.8397 18.91C15.7097 16.31 18.1397 14.38 20.9997 14.38Z" fill="#EA4335"></path></svg>
+                                                    <div class="stars-svg"><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg><svg width="17" height="16" viewBox="0 0 17 16" class="Icon-module--svg-icon--addef"><path d="M7.56693 1.31594C7.82313 0.699967 8.69572 0.699967 8.95191 1.31594L10.3734 4.73351C10.5534 5.1663 10.9604 5.46201 11.4276 5.49947L15.1172 5.79526C15.7822 5.84857 16.0518 6.67845 15.5452 7.11246L12.7341 9.52042C12.3781 9.82536 12.2227 10.3038 12.3314 10.7598L13.1902 14.3602C13.345 15.0091 12.6391 15.522 12.0698 15.1742L8.91099 13.2449C8.51097 13.0005 8.00787 13.0005 7.60785 13.2449L4.44908 15.1742C3.87976 15.522 3.17382 15.0091 3.32861 14.3602L4.18743 10.7598C4.29619 10.3038 4.14072 9.82536 3.78474 9.52042L0.973686 7.11246C0.467033 6.67845 0.736677 5.84857 1.40167 5.79526L5.09122 5.49947C5.55846 5.46201 5.96547 5.1663 6.14548 4.73351L7.56693 1.31594Z" fill="#FBE277" stroke="#FBE277" stroke-width="0.5"></path></svg></div>
+                                                    <!-- <span class="timer">1 month ago</span> -->
+                                                </div>
+                                                <div class="card-content pt-2">
+                                                    <p>I booked good health package at Redcliffe Labs and got the reports in time. They kept their promise.
+                                                        Really happy with the service 👍
+                                                    </p>
+                                                    <p class="name fw-bold pt-2">Rajeev Mahajan (Gurgaon)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination-care text-center"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="terms pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Terms & Condition
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body acc-body">
+                                        <p class="pb-3">1. By submitting the form above, you are allowing our Health Advisors to call you back at your convenient time.</p>
+                                        <p class="pb-3">2. We are serviceable in Agra, Ahmedabad, Allahabad, Asansol, Bangalore, Bhopal, 
+                                            Bhubaneshwar, Chandigarh, Chennai, Coimbatore, Cuttack, Dehradun, Dhakaoli, Dombivli, Ernakulam, 
+                                            Faridabad, Gandhinagar, Ghaziabad, Greater Noida, Guntur, Gurgaon, Guwahati, Gwalior, Howrah, 
+                                            Hyderabad, Indore, Jaipur, Jalandhar, Jodhpur, Kalyan, Kanchipuram, Kanpur, Kanpur Nagar, 
+                                            Kattupakkam, Khorda, Kochi, Kolkata, Lucknow, Ludhiana, Madurai, Meerut, Mohali, Mumbai, 
+                                            Mysore, Nagpur, Nashik, Navi Mumbai, New Delhi, Noida, North Goa, Panchkula, Patna, Pune, 
+                                            Raigad Maharashtra, Raipur, Rajkot, Ranchi, Rangareddy, S.A.S. Nagar, Secunderabad, South 
+                                            24 Parganas, Surat, Thane, Tiruvallur, Trimulgherry, Udaipur Rajasthan, Vadodara, Varanasi, 
+                                            Vijayawada, Visakhapatnam, Warangal
+                                        </p>
+                                        <p class="pb-3">3. Our health advisors will understand your diagnostics testing requirement & 
+                                            help booking the right test or package for a convenient date & time.
+                                        </p>
+                                        <p class="pb-3">4. Once a booking is done, a well-trained phlebotomist (sample collector) will be assigned to visit you on your chosen time and address for collection of sample.</p>
+                                        <p class="pb-3">5. Your sample will then be transported to our nearest Lab facility maintaining the integrity of the sample and will be centrifuged before sending to the lab for processing.</p>
+                                        <p class="pb-3">6. After the testing, a report will be generated and sent over your registered email id.</p>
+                                        <p class="pb-3">7. Post report generation, you can avail Free Doctor Consultation from our experienced team of Doctors.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+
+    <script>
+         // Function to start the number incrementer
+        function startIncrementer() {
+            let currentValue = localStorage.getItem('incrementingNumber') || 75;
+            const interval = setInterval(function() {
+                const randomIncrement = Math.floor(Math.random() * 5) + 1;
+                currentValue = parseInt(currentValue) + randomIncrement;
+                const numberDisplayElement = document.getElementById('numberDisplay');
+                numberDisplayElement.textContent = currentValue;
+                localStorage.setItem('incrementingNumber', currentValue);
+
+                if (currentValue >= 500) {
+                    clearInterval(interval);
+                    numberDisplayElement.textContent = '589';
+                }
+
+            }, 70000); // 7 mins interval
+
+            // Stop the incrementer after a certain number of iterations (optional)
+            // setTimeout(function() {
+            //   clearInterval(interval);
+            // }, 10000); // Stop after 10 seconds (adjust as needed)
+        }
+        // Start the incrementer when the page loads
+        startIncrementer();
+
+        var currentDate = new Date();
+        var formattedDate = currentDate.toISOString().slice(0, 19).replace('T', ' ');
+        $('input[name="created_at"]').val(formattedDate);
+
+        const reviewSwiper = new Swiper('.review-swiper', {
+            speed: 2000,
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: true
+            },
+            slidesPerView: 'auto',
+            pagination: {
+                el: '.swiper-pagination-care',
+                type: 'bullets',
+                clickable: true
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 40
+                },
+                480: {
+                    slidesPerView: 3,
+                    spaceBetween: 60,
+                },
+                //   640: {
+                //     slidesPerView: 4,
+                //     spaceBetween: 80
+                //   },
+                992: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                }
+            }
+        });
+
+        const packageSwiper = new Swiper('.package-swiper', {
+            speed: 2000,
+            loop: false,
+            // autoplay: {
+            //     delay: 3000,
+            //     disableOnInteraction: true
+            // },
+            slidesPerView: 'auto',
+            pagination: {
+                el: '.package-swiper-btn',
+                type: 'bullets',
+                clickable: true
+            },
+            breakpoints: {
+                320: {
+                    loop:false,
+                    slidesPerView: 1,
+                    spaceBetween: 40
+                },
+                480: {
+                    slidesPerView: 3,
+                    spaceBetween: 60,
+                },
+                //   640: {
+                //     slidesPerView: 4,
+                //     spaceBetween: 80
+                //   },
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                }
+            }
+        });
+
+        $(document).on('click', '.booktest', function() {
+            var value = $(this).attr('value');
+            console.log(value);
+            $('html, body').animate({
+                scrollTop: $('.header-section').offset().top
+            }, 1000);
+            document.getElementById('test').value = value;
+        });
+
+        $(document).on('click', '#submitForm', function(event) {
+            event.preventDefault();
+            var pincode = $('#pincode').val();
+            var phone = $('#phone').val();
+            var filter = /^\d*(?:\.\d{1,2})?$/;
+            var pattern = /^[6-9]\d{9}$/;
+            var regex = /^[A-Za-z\s]+$/;
+            
+            var form = 1;
+            var app = '';
+
+            if (filter.test(phone)) {
+                if (phone.length != 10) {
+                    form = 0;
+                    app += "Enter Phone Number \n";
+                } else if (!pattern.test(phone)) {
+                    form = 0;
+                    app += "Mobile numbers starting with 6,7,8 or 9 \n";
+                }
+            } else {
+                form = 0;
+                app += "Not a valid number \n";
+            }
+            if (form == 0) {
+                alert(app);
+            } else {
+                var url = 'https://script.google.com/macros/s/AKfycbxHOsBdqVnomPBp4Q79vTC53xfdd5VAIr6FxVvbcvsrkdq4zJbQLXpBvAWlRVzagsxB/exec';
+                $.ajax({
+                    url: url,
+                    type: 'post',
+                    data: $('#leadfrm').serialize(),
+                    success: function(result) {
+                        $('#leadfrm')[0].reset();
+                        alert('Thank You! \n We will get back to you soon.');
+                    }
+                });
+            }
+        });
+
+        (function ($) {
+            $(function () {
+                $('.js-ag-faq_title').on('click', function() {
+                    $('.js-ag-faq_title').not(this).next('.js-ag-faq_text').slideUp();
+                    $(this).next('.js-ag-faq_text').slideToggle();
+                });
+            });
+        })(jQuery);
+    </script>
+</body>
+</html>
