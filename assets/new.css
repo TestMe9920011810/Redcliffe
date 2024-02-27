@@ -44,7 +44,7 @@ p {
 }
 
 .m-text {
-    font-size: 20px;
+    font-size: 14px;
     font-weight: bold;
     color: #203e7a;
 }
@@ -101,7 +101,7 @@ p {
 }
 
 .form-style {
-    background-color: #fff;
+    background-color: #f1f1f1;
     padding: 20px;
     width: 400px;
     border-radius: 10px;
